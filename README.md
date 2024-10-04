@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple task management application built with React Native, designed to help users organize their tasks with ease. Users can add tasks with brief descriptions, mark them as complete, and delete tasks once they're no longer needed.
 
-## Get started
+Features:
+Add Task: Users can add a new task with a title and brief description.
+Mark Task as Complete: Tap on a task to mark it as complete. Completed tasks will appear visually distinct from incomplete ones.
+Delete Task: Easily remove a task from the list by pressing the "Delete" button.
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+App Structure
 
-   ```bash
-    npx expo start
-   ```
+The app consists of two main components:
 
-In the output, you'll find options to open the app in a
+App.js: The main entry point, where tasks are added, marked as complete, and deleted.
+Task.js: A component that represents individual tasks, with options to visually display completion status.
+How to Use the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Adding a Task:
+Enter the task title and description in the input fields at the bottom of the screen.
+Press the "+" button to add the task to the list.
+Marking a Task as Complete:
+Tap on any task to mark it as complete. The task will be visually distinguished (you can change the appearance of completed tasks by editing the styles).
+Deleting a Task:
+Press the "Delete" button next to a task to remove it from the list.
